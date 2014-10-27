@@ -1,0 +1,47 @@
+#container { margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    background-color: grey
+  }
+
+h1 {text-align: center;
+    color: #fff;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #00DEFF , 0 0 70px #00DEFF , 0 0 80px #00DEFF , 0 0 100px #00DEFF , 0 0 150px #00DEFF ;
+    }
+
+a:link {text-decoration: none}
+
+a:hover {color: red; transition: 1s}
+
+a:visited {color: blue}
+
+.menu-item-price::before {content: "$";}
+
+
+#primary-nav ul {text-align: center}
+
+li {display: inline; margin: 2%; font-weight: bold
+    }
+
+li.menu-item {display: block; margin: 20px}
+
+span.menu-item-description {display: block}
+
+span.menu-item-name { color: #fff;
+                    background-color: #036}
+
+span.menu-item-price {font-weight: bold}
+
+img {float: right; width: 20%}
+
+#information {text-align: center}
+
+#announcements {float: left; width: 20%}
+
+#menu {float: right; width: 60%}
+
+#menu h2 {text-align: center}
+
+#page-footer {text-align: center;
+              clear: both;
+              }
